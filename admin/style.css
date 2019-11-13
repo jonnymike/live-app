@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+	background: #dce6f7 none repeat scroll 0 0;
+	font-family: "Roboto",sans-serif;
+}
+#main {
+    margin: auto;
+    width: 360px;
+}
+span {
+	color:red
+}
+h2 {
+	color: #084b8a;
+}
+hr {
+	border:0;
+	border-bottom:1px solid #ccc;
+	margin:10px -40px;
+	margin-bottom:30px
+}
+#login {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 0 auto 100px;
+    max-width: 360px;
+    padding: 45px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+input[type="text"], input[type="password"] {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: 0 none;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    margin: 0 0 15px;
+    outline: 0 none;
+    padding: 15px;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #dce6f7;
+    border: 2px solid #dce6f7;
+    border-radius: 50px;
+    color: #084b8a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+}
+#profile {
+	padding:50px;
+	font-size:24px;
+	background-color:#d0dae7
+}
+#logout {
+	float:right;
+}
+a {
+	text-decoration:none;
+	color:#6495ed
+}
+i {
+	color:#6495ed
+}
+#rslt {
+    text-align: center;
+	margin: 70px auto;	
+}
+.button{
+    background-color: #dce6f7;
+    border: 2px solid #dce6f7;
+    border-radius: 50px;
+    color: #084b8a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+}
+.button:hover {
+    background-color: #cad4e2;
+    border: 2px solid #cad4e2;
+}	
+input[type="submit"]:hover {
+    background-color: #cad4e2;
+    border: 2px solid #cad4e2;
+}	
+#profile_main{
+	text-align: center;
+}
+.code_create {
+	background: #ffffff none repeat scroll 0 0;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	margin: 40px auto 100px;
+	max-width: 360px;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+.code_update {
+	background: #ffffff none repeat scroll 0 0;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	margin: 40px auto 100px;
+	max-width: 360px;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
