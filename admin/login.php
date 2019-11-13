@@ -18,8 +18,8 @@ if (isset ($_POST['submit'])) {
 		include 'config.php';	
 	
 		// SQL query to fetch information of registerd users and finds user match.
-		//$query = 'Select * from admin_user where admin_user."Username" = \''.$username.'\' and admin_user."Password" = \''.$password.'\'';
-		$query = 'Select * from admin_user where admin_user."Username" = "admin" and admin_user."Password" = "admin"';
+		$query = 'Select * from admin_user where admin_user."Username" = \''.$username.'\' and admin_user."Password" = \''.$password.'\'';
+		//$query = 'Select * from admin_user where admin_user."Username" = "admin" and admin_user."Password" = "admin"';
 	
 		$result = pg_query($query) or die('Query failed: ' . pg_last_error());
 	
