@@ -1,0 +1,92 @@
+body {
+    background-color: #31303a!important;
+}
+.heading h1 {
+text-align: center;
+color: #fff;
+margin: 0px 0;
+padding: 10px 0;
+}
+.content_main {
+      padding: 45px 30px;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    border: 1px solid rgba(48,48,58,.2);
+    border-radius: 6px;
+}
+.list .toggle {
+    width: 125px;
+	float: left;
+}
+.toggle .total{
+    justify-content: space-between;
+    width: 90px;
+    height: 40px;
+    padding: 5px 15px 2px;
+    border: 1px solid #6e6e71;
+    border-radius: 3px;
+    color: #6e6e71;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list {
+    align-items: flex-start;
+    text-align: left;
+    line-height: 30px;
+    padding: 25px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.number {
+    color: #6e6e71;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0px 0px 0px 10px;
+}
+.email {
+	margin:10px 0px 0px 0px;
+	padding:15px 0px 0px 0px;
+	text-align:center;
+	font-size:17px;
+}
+ .email a {
+	margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+	text-align:center;
+	text-decoration:underline;
+	color: blue;
+ }
+ .list_innr{
+	 margin-top:-20px;
+	 text-align:left;	 
+ }
+ .list_innr h2 {
+	font-family: Tiempos,Times,serif;
+    font-size: 26px;
+	font-weight:800;
+ }
+.list_innr p {
+    font-size: 18px;
+}
+.footer {
+	max-width: 1440px;
+    margin: 0 auto;
+    background: #31303a;
+    color: #fff;
+    line-height: 40px;
+}
+.total.toggled {
+    background: #f4511c none repeat scroll 0 0;
+    border-color: #f4511c;
+    color: #fff;
+}
+
+.toggled .number {
+    color: #fff;
+}
+.container {
+    width: 1010px !Important;
+}
