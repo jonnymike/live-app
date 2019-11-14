@@ -20,7 +20,7 @@
 $dbconn = pg_connect("host=ec2-23-23-223-2.compute-1.amazonaws.com dbname=d1filjgshltm5 user=mtracxsevywyhp password=d1950f8ce89de40987a180f56de2bc99250da5810e346b57e6bdf5e957c18c3c")
     or die('Could not connect: ' . pg_last_error());
 	
-$query = 'SELECT * from vote ORDER BY vote."Id"';
+$query = 'SELECT * from vote ORDER BY vote."Id" limit 5';
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());	
 
 // Printing results in HTML
@@ -51,7 +51,7 @@ pg_free_result($result);
 // Closing connection
 pg_close($dbconn);
 ?>
-					<p class="email">Email:&nbsp;<a href="#">abc@gmail.com</a>&nbsp;enter your account</p>
+					<p class="email">Copywrite:&nbsp;<a href="#">Live-View</a>&nbsp;All Rights Reserved.</p>
 				</div>
 			</div>	
 		</div>
