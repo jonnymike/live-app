@@ -51,7 +51,7 @@ pg_free_result($result);
 // Closing connection
 pg_close($dbconn);
 ?>
-					<p class="email">Copywrite:&nbsp;<a href="#">Live-View</a>&nbsp;All Rights Reserved.</p>
+					<p class="email">© 2019&nbsp;<a href="#">Live-View</a>&nbsp;All Rights Reserved.</p>
 				</div>
 			</div>	
 		</div>
