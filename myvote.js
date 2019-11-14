@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.total').click(function() {
 		var costVal = parseInt($(this).find('.number').text(), 10);
-		if($(this).hasClass('toggled') ) {
+/* 		if($(this).hasClass('toggled') ) {
 			var code = $(this).find('.number').attr('id');
 			// Vote Count Down
 			$.ajax({
@@ -18,8 +18,8 @@ $(document).ready(function(){
 			$(this).css("background", "#fff");
 			$(this).css("border-color", "#6e6e71");	 
 		}
-		else
-		{
+		else */
+	//	{
 			var code = $(this).find('.number').attr('id');
 			// Vote Count Up
 			$.ajax({
@@ -36,6 +36,6 @@ $(document).ready(function(){
 			$(this).css("background", "#f4511c");
 			$(this).css("border-color", "#f4511c");
 			$(this).find('.toggled .number').css("color", "#fff");
-		}	
+	//	}	
 	});	
 });	
